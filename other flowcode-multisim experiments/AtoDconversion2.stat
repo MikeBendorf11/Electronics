@@ -1,0 +1,24 @@
+// SourceBoost Linker Function Resource Usage Dump
+
+#GLOBAL:"global",line = 0,ram = 40.0,rom = 0;
+__div_16_16(unsigned short,unsigned short):"E:\Prg\compiler.trunk\picantc\libc\div.c",line = 116,ram = 9.0,rom = 31;
+Wdt_Delay_Ms(unsigned char):"C:\Program Files\Flowcode\v5\CAL\PIC\PIC_CAL_Delay.c",line = 118,ram = 2.0,rom = 11;
+FC_CAL_Enable_ADC(unsigned char,unsigned char,unsigned char,unsigned char):"C:\Program Files\Flowcode\v5\CAL\PIC\PIC_CAL_ADC.c",line = 3839,ram = 8.0,rom = 64;
+FC_CAL_Sample_ADC(unsigned char):"C:\Program Files\Flowcode\v5\CAL\PIC\PIC_CAL_ADC.c",line = 3931,ram = 5.0,rom = 36;
+FC_CAL_Disable_ADC(void):"C:\Program Files\Flowcode\v5\CAL\PIC\PIC_CAL_ADC.c",line = 3946,ram = 0.0,rom = 15;
+FCD_ADC0_ReadAsByte(void):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 249,ram = 2.0,rom = 17;
+FCD_LCDDisplay0_RawSend(unsigned char,unsigned char):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 398,ram = 3.0,rom = 65;
+FCD_LCDDisplay0_Start(void):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 448,ram = 0.0,rom = 85;
+FCD_LCDDisplay0_Clear(void):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 481,ram = 0.0,rom = 17;
+FCD_LCDDisplay0_PrintNumber(signed short):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 549,ram = 7.0,rom = 238;
+main(void):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 726,ram = 0.0,rom = 27;
+interrupt(void):"W:\bcit_flowcode_projecs\AtoDconversion2.c",line = 774,ram = 0.0,rom = 11;
+delay_us(unsigned char):"NoSourceFile",line = 0,ram = 0.0,rom = 5;
+delay_10us(unsigned char):"NoSourceFile",line = 0,ram = 0.0,rom = 14;
+delay_ms(unsigned char):"NoSourceFile",line = 0,ram = 0.0,rom = 40;
+delay_s(unsigned char):"NoSourceFile",line = 0,ram = 1.0,rom = 15;
+_startup(void):"NoSourceFile",line = 0,ram = 0.0,rom = 40;
+#HEAP_BLOCK: 0, 272, 111;
+#HEAP_BLOCK: 1, 400, 96;
+#HEAP_BLOCK: 2, 160, 80;
+#HEAP_BLOCK: 3, 87, 25;
